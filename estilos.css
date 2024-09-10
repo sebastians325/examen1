@@ -1,0 +1,146 @@
+@import
+url('https://fonts.cdnfonts.com/css/sst'); 
+
+
+body,html {
+    margin:0;
+    padding:0;
+}
+
+main header {
+    background-color: rgb(0,0,0);
+}
+
+.cajaEnHeader {
+    width: 80%;
+}
+
+.cajaEnHeader ol li {
+    list-style-type: none;
+    color: white;
+    display: inline-flex;
+    font-family: 'SST', sansserif; 
+    padding-top: 5px;
+    margin: 10px;
+}
+
+.cajaEnHeader ol li:nth-of-type(1) {
+    padding-left: 50px;
+}
+
+.cajaEnHeader ol li:nth-of-type(2) input{
+    width: 300px;
+}
+
+.cajaEnHeader ol li:nth-of-type(3) {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.cajaEnHeader ol li:nth-of-type(4) {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.cajaEnHeader ol li:nth-of-type(4) p {
+    display:contents;
+    font-size: x-small;
+}
+
+
+
+
+
+
+
+nav {
+    background-color: rgb(255, 255,255);
+    padding: 0;
+    margin: 0;
+}
+
+.cajaEnNav {
+    padding: 0;
+    margin: 0;
+}
+
+.cajaEnNav ol li {
+    display: inline-flex;
+    color: rgb(176, 176, 174);
+    font-size: small;
+    font-family: 'SST', sansserif;
+    margin-left: 20px; 
+    margin-right: 20px; 
+    padding: 0px;
+}
+
+.cajaEnNav ol li:hover {
+    color: black;
+}
+
+.cajaEnNav ol li:nth-of-type(1) {
+    padding-left: 200px;
+}
+
+.banner {
+    background-image: url(img/bannerm.JPG);
+    height:383px;
+
+}
+
+.banner img {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.banner p {
+    color: white;
+    font-family: 'SST', sansserif;
+    padding-left: 100px;
+}
+
+.banner h1 {
+    color: white;
+    font-family: 'SST', sansserif;
+    padding-left: 100px;
+}
+
+button {
+    color: white;
+    background-color: #5787f4;
+    font-family: 'SST', sansserif;
+    margin-left: 100px;
+    height: 35px;
+}
+
+.terminos {
+    margin-top: 20px;
+    background-color: rgb(243, 243, 243);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.terminos p {
+    font-family: 'SST', sansserif;
+    display: inline;
+    text-align: center;
+    font-size: small;
+}
+
+.terminos h6 {
+    font-family: 'SST', sansserif;
+    display: inline;
+    color: orange;
+    text-align: center;
+    font-size: small;
+}
+
+footer {
+    display: inline;
+}
+
+footer li {
+    list-style-type: none;
+    display: inline;
+}
+
